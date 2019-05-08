@@ -4,7 +4,7 @@ xlogin*translations:#override \
 	<Key>Return:set-session-argument() finish-field()\n\
 	Ctrl<Key>Return:set-session-argument(failsafe) finish-field()\n\
 
-xlogin*greeting:CLIENTHOST\040login
+xlogin*greeting:login\040
 xlogin*namePrompt:user:\040
 xlogin*passwdPrompt:pass:\040
 xlogin*fail:incorrect
