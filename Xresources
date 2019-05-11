@@ -5,8 +5,8 @@ xlogin*translations:#override \
 	Ctrl<Key>Return:set-session-argument(failsafe) finish-field()\n\
 
 xlogin*greeting:login\040
-xlogin*namePrompt:user:\040
-xlogin*passwdPrompt:pass:\040
+xlogin*namePrompt:Username:\040
+xlogin*passwdPrompt:Password:\040
 xlogin*fail:incorrect
 xlogin*greetFace:Bitstream\040Vera\040Sans\040Mono-36:style=Bold
 xlogin*promptFace:xos4\040Terminus-24:style=Bold
