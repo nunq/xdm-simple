@@ -8,10 +8,10 @@ xlogin*greeting:login\040
 xlogin*namePrompt:Username:\040
 xlogin*passwdPrompt:Password:\040
 xlogin*fail:incorrect
-xlogin*greetFace:Bitstream\040Vera\040Sans\040Mono-36:style=Bold
-xlogin*promptFace:xos4\040Terminus-24:style=Bold
-xlogin*face:xos4\040Terminus-20
-xlogin*failFace:xos4\040Terminus-24:style=Bold
+xlogin*greetFace:monospace-36:style=Bold
+xlogin*promptFace:monospace-24:style=Bold
+xlogin*face:monospace-20
+xlogin*failFace:monospace-24:style=Bold
 xlogin*shdColor:#2D2D2D
 xlogin*hiColor:#2D2D2D
 xlogin*inpColor: #2D2D2D
@@ -29,7 +29,6 @@ XClock*analog:false
 XClock*strftime:%d\056%m\056%y\040%T
 XClock*update:1
 XClock*render:false
-XClock*font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
 XClock.width:640
 
 Xmessage*message.scrollVertical:whenNeeded
@@ -38,8 +37,6 @@ Xmessage*Command.highlightThickness:2
 Xmessage*Command.internalWidth:8
 Xmessage*Command.internalHeight:8
 Xmessage*Command.shapeStyle:rectangle
-Xmessage*Command.font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
-Xmessage*font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
 
 XConsole*verbose:true
 XConsole*exitOnFail:true
@@ -47,7 +44,3 @@ XConsole*exitOnFail:true
 Chooser*geometry:700x500
 Chooser*allowShellResize:false
 Chooser*viewport.forceBars:true
-Chooser*label.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
-Chooser*label.label:XDMCP\040Host\040Menu\040from\040CLIENTHOST
-Chooser*list.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
-Chooser*Command.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
