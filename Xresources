@@ -4,28 +4,30 @@ xlogin*translations:#override \
 	<Key>Return:set-session-argument() finish-field()\n\
 	Ctrl<Key>Return:set-session-argument(failsafe) finish-field()\n\
 
-xlogin*greeting:login\040
+xlogin*greeting:Login\040
 xlogin*namePrompt:Username:\040
 xlogin*passwdPrompt:Password:\040
 xlogin*fail:incorrect
-xlogin*greetFace:monospace-36:style=Bold
-xlogin*promptFace:monospace-24:style=Bold
-xlogin*face:monospace-20
-xlogin*failFace:monospace-24:style=Bold
+xlogin*greetFace:monospace-36:style=Mono
+xlogin*promptFace:monospace-24:style=Mono
+xlogin*face:monospace-20:style=Mono
+xlogin*failFace:monospace-24:style=Mono
 xlogin*shdColor:#2D2D2D
 xlogin*hiColor:#2D2D2D
-xlogin*inpColor: #2D2D2D
+xlogin*inpColor:#2D2D2D
 xlogin*greetColor:#CCCCCC
 xlogin*promptColor:grey80
 xlogin*failColor:red
-xlogin*echoPasswd: true
-xlogin*echoPasswdChar: *
+xlogin*echoPasswd:true
+xlogin*echoPasswdChar:*
+xlogin*allowRootLogin:false
 
-*borderWidth: 0
-*foreground: grey80
-*background: #2D2D2D
+*borderWidth:0
+*foreground:grey80
+*background:#2D2D2D
 
 XClock*analog:false
+XClock*font:-misc-fixed-*-*-*-*-*-200-*-*-*-*-*-*
 XClock*strftime:%d\056%m\056%y\040%T
 XClock*update:1
 XClock*render:false
@@ -37,6 +39,8 @@ Xmessage*Command.highlightThickness:2
 Xmessage*Command.internalWidth:8
 Xmessage*Command.internalHeight:8
 Xmessage*Command.shapeStyle:rectangle
+Xmessage*Command.font:-misc-fixed-*-*-*-*-*-200-*-*-*-*-*-*
+Xmessage*font:-misc-fixed-*-*-*-*-*-200-*-*-*-*-*-*
 
 XConsole*verbose:true
 XConsole*exitOnFail:true
@@ -44,3 +48,5 @@ XConsole*exitOnFail:true
 Chooser*geometry:700x500
 Chooser*allowShellResize:false
 Chooser*viewport.forceBars:true
+Chooser*list.font:-misc-fixed-*-*-*-*-*-200-*-*-*-*-*-*
+Chooser*command.font:-misc-fixed-*-*-*-*-*-200-*-*-*-*-*-*
