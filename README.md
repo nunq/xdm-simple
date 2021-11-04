@@ -9,4 +9,6 @@ a simple xdm theme
 
 #### other
 
+<img src="screenshot.png" alt="screenshot of xdm login session with xdm-simple theme"/>
+
 License: GPL
